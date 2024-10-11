@@ -1,7 +1,6 @@
-from sqlalchemy import create_engine
+from sqlalchemy import String, INT, create_engine
 
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, Session
-from sqlalchemy import String, INT
 
 class Base(DeclarativeBase):
     pass

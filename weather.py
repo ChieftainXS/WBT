@@ -1,12 +1,10 @@
 import requests
-import os
-from lexicon import LEXICON as L
 
+from lexicon import LEXICON as L
+from main import APITOKEN
 from dotenv import find_dotenv, load_dotenv
 
 load_dotenv(find_dotenv())
-
-APITOKEN = os.getenv('APITOKEN')
 
 URL = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=metric&APPID={}&lang=ru'
 

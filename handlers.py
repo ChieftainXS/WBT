@@ -1,8 +1,6 @@
 from db import LogBase, add_log
 from lexicon import LEXICON as L
-
 from weather import get_weather_to_city
-
 from aiogram import types, Router, F
 from aiogram.filters import Command
 
